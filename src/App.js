@@ -81,7 +81,7 @@ function App() {
     return (
         <div className="App">
             <div className="grid">
-                <form autoComplete="off">
+                <form autoComplete="off" className="form">
                     {rows}
                 </form>
             </div>

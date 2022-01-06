@@ -5,9 +5,18 @@ body {
     color: #ffffff;
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .grid {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 4px;
+    height: 350px;
 }
 
 .grey {
@@ -44,4 +53,33 @@ body {
     color: #ffffff;
     margin: 4px 4px;
     font-weight: bold;
+}
+
+.suggestions {
+    overflow-y: scroll;
+    height: calc(100vh - 450px);
+    display: inline-flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.word {
+    height: min-content;
+    background-color: #3a3a3c;
+    flex-grow: 1;
+    margin: 4px 4px;
+    font-size: 2rem;
+    padding: 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
 }
