@@ -3,8 +3,8 @@
  */
 class Helper {
 
-    // A dictionary containing all the five-letter words in words/fives.json as keys
-    static dictionary = require("./words/fives.json")
+    // A dictionary containing all the five-letter words in words/solutions.json as keys
+    static dictionary = require("./words/solutions.json")
 
     /**
      * Returns an array of words that match the current input.
